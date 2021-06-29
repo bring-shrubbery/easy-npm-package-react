@@ -1,0 +1,69 @@
+{
+  "name": "easy-npm-package-react",
+  "version": "0.1.0",
+  "description": "Template to create npm packages for react with ",
+  "main": "./build/cjs/index.js",
+  "types": "./build/cjs/index.d.ts",
+  "module": "./build/esm/index.js",
+  "files": [
+    "build/"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "gts lint",
+    "clean": "rimraf build",
+    "compile:esm": "tsc -p tsconfig.esm.json",
+    "compile:cjs": "tsc -p tsconfig.cjs.json",
+    "fix": "gts fix",
+    "prepare": "husky install && npm run build",
+    "posttest": "npm run lint",
+    "build": "npm run compile:esm && npm run compile:cjs"
+  },
+  "keywords": [
+    "npm",
+    "example",
+    "react",
+    "hooks",
+    "commonjs",
+    "es6"
+  ],
+  "homepage": "https://github.com/bring-shrubbery/easy-npm-package-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bring-shrubbery/easy-npm-package-react"
+  },
+  "bugs": {
+    "url": "https://github.com/bring-shrubbery/easy-npm-package-react/issues"
+  },
+  "author": {
+    "name": "Antoni Silvestrovič",
+    "email": "antoni.silvestrovic@gmail.com",
+    "url": "http://antoni.ai/"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8",
+    "react-dom": "^16.8"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11",
+    "@testing-library/react-hooks": "^7",
+    "@types/jest": "^26",
+    "@types/node": "^14",
+    "@types/react": "^16.9",
+    "@types/react-dom": "^16.9",
+    "gts": "^3",
+    "husky": "^6.0.0",
+    "jest": "^27",
+    "prettier": "^2",
+    "react": "^16.8",
+    "react-dom": "^16.8",
+    "react-test-renderer": "^16.14.0",
+    "rimraf": "^3",
+    "ts-jest": "^27",
+    "typescript": "^4.2"
+  }
+}
