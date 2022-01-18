@@ -7,6 +7,7 @@ This package is a template you can use to create Node.js packages that are easil
 This project includes following features:
 
 - Fully configured TypeScript project for easy NPM publishing to both browser (ES5) and Node.js.
+- No bundling, just TS to JS transpiling.
 - Testing setup with Jest and React Testing Library.
 - Github action to automatically publish the package when a release is created on your default branch.
 - Github action to automatically test default branch or a new Pull Request.
