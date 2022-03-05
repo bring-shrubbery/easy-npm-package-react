@@ -4,7 +4,7 @@ module.exports = {
   rootDir: 'src',
   globals: {
     'ts-jest': {
-      tsconfig: 'tsconfig.esm.json',
+      tsconfig: 'tsconfig.json',
     },
   },
 };

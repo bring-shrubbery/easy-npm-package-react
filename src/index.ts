@@ -20,6 +20,6 @@
  * @param ...params Any number of parameters to be summed up
  * @returns Sum of the parameters
  */
-export const add = (...params: number[]) => {
+export const add = (...params: number[]): number => {
   return params.reduce((prev, curr) => prev + curr, 0);
 };

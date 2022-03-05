@@ -1,3 +1,4 @@
 {
+  // TODO: extend frm @quassum/eslint-config
   "extends": "./node_modules/gts/"
 }
