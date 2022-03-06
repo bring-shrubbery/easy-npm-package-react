@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@quassum/prettier-config')
+  ...require('@quassum/prettier-config'),
 }

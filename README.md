@@ -6,8 +6,8 @@ This package is a template you can use to create [NPM](https://npmjs.org/) packa
 
 This project includes following features:
 
-- Code bundling powered by [ESBuild](https://esbuild.github.io/) using [tsup](https://github.com/egoist/tsup).
-- Testing with [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+- Ultra fast code bundling powered by [ESBuild](https://esbuild.github.io/) using [tsup](https://github.com/egoist/tsup).
+- Turbo speed testing with [`@swc/jest`](), [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 - Prettier for code formatting.
 - ESLint for code linting.
 - Husky for commit validation.

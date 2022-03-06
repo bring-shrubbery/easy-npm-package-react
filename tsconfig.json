@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Base Config",
-  "extends": "./base.json",
   "compilerOptions": {
     "composite": false,
     "declaration": true,
@@ -18,7 +17,9 @@
     "lib": ["ES2015"],
     "module": "ESNext",
     "target": "ES6",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "baseUrl": "./src"
   },
   "include": ["src"],
   "exclude": ["node_modules"]

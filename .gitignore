@@ -8,3 +8,7 @@ npm-debug.log
 yarn-error.log
 yarn.lock
 __pycache__
+dist
+.swc
+.turbo
+.vscode
