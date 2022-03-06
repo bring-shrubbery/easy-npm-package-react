@@ -1,4 +1,4 @@
-# Easy NPM Package template for React
+# 😌 Easy NPM Package template for React
 
 This package is a template you can use to create [NPM](https://npmjs.org/) packages that work well with the React library.
 
@@ -17,13 +17,27 @@ This project includes following features:
 
 ## Getting started
 
-### Cloning
+### `Use this template` button
 
-To get started just click on the `"Use this template" on this repo or just clone it. Change the `package.json` info to match your information, add your source code and you're all set!
+The easiest way of getting started with this template is to use the `Use this template` button at the top of this page - then follow the steps to create your own repo from it.
+
+### Degit
+
+You can use [`degit`](https://github.com/Rich-Harris/degit) to clone this repo without the git history.
+
+```bash
+npx degit github:bring-shrubbery/easy-npm-package-react
+```
+
+### Adding source code and building
+
+All your source code should go into `src` folder.
+After you do that run `yarn build` and you'll have your code compiled into `dist` folder.
+You can also run `yarn test` to test your code after you add your tests.
 
 ### Environment Variables
 
-To have package automatically deployed on new release just add `npm_token` env variable to your Github repository.
+To have package automatically deployed on new release, add `npm_token` env variable to your Github repository.
 
 ## Contributors
 
