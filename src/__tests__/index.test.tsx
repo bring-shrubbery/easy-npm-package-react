@@ -1,4 +1,4 @@
-import {add} from '../index';
+import { add } from '../index';
 
 describe('Basic number addition', () => {
   test('should add up positive numbers', async () => {
