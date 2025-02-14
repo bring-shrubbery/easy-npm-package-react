@@ -39,9 +39,9 @@ You can also run `yarn test` to test your code after you add your tests.
 
 To have package automatically deployed on new release, add `npm_token` env variable to your Github repository.
 
-## Contributors
+## Support
 
-- [Antoni Silvestrovic (author)](https://github.com/bring-shrubbery)
+Please consider following this project's author, Antoni Silvestrovič on [Github](https://github.com/bring-shrubbery) or [Bluesky](https://bsky.app/profile/bring-shrubbery.bsky.social), or by starring the project to show your ❤️ and support.
 
 ## License
 
